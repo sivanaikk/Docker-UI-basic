@@ -1,0 +1,212 @@
+*{
+    font-family: 'Raleway', sans-serif;
+  
+}
+body{
+    background-color: #DEF2F1;
+    margin:0;
+}
+.head{
+    box-shadow: 4px 4px 10px black;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+}
+.hhh{
+    margin-bottom: 1vh;
+}
+.logo{
+    height: 2vw;
+    
+}
+.logo-text{
+    background-color: white;
+    margin-top: 0.5vh;
+    font-size: 1.5vw;
+    padding-left: 0.3vh;
+    font-weight: 1000;
+    text-decoration: underline;
+  
+}
+.body{
+    margin-top: 0.5vh;
+    display: flex;
+    justify-content: center;
+}
+.body .one, .body .two, .body .three{
+    margin: 5vh;
+    padding: 5vh;
+}
+.images , .delete, .help, .execute,.logs,.launch{
+    color: #2B7A78;
+    height: 5vh;
+    margin: 2vh;
+    width: 9vw;
+    border-radius: 1vh;
+    background-color: white;
+    border: none;
+    font-size: 1.3vw;
+    box-shadow: 4px 4px 5px black;
+}
+.images:hover , .delete:hover , .help:hover , .execute:hover ,.logs:hover,.launch:hover{
+
+    cursor: pointer;
+    
+
+}
+.to{
+    display: none;
+}
+.two-one{
+    background-color: white;
+
+    border-radius: 1vh;
+    padding: 2vh;
+}
+.two-main{
+    font-size: 1.3vw;
+    width: 25vw;
+    height: 50vh;
+    padding: 1.5vh;
+    background-color: #DEF2F1;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.three-one{
+    background-color: white;
+
+    border-radius: 1vh;
+    padding: 2vh;
+}
+.three-main{
+    font-size: 1.3vw;
+    width: 20vw;
+
+    padding: 1vh;
+}
+.images-button{
+    height: 5vh;
+    background-color: #DEF2F1;
+    width: 11vw;
+    border-radius: 1vh;
+    border: none;
+    font-size: 1.3vw;
+    box-shadow: 4px 4px 5px black;
+}
+.images-button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.three-main-one{
+    display: flex;
+    justify-content: center;
+}
+.three-main-two{    
+    text-align: center;
+
+    border-radius: 1vh;
+
+    margin: 1.5vh;
+    padding: 1vh;
+    background-color: #DEF2F1;
+}
+.textt{
+    font-size: 1.3vw;
+    text-decoration: underline;
+}
+.images-input{
+    padding: 1vh;
+    box-sizing: border-box;
+    margin: 2vh;
+    border: none;
+    height: 5vh;
+    border-radius: 1vh;
+    font-size: 1.3vw;
+    width: 11vw;
+}
+.images-input2{
+    padding: 1vh;
+    box-sizing: border-box;
+    margin: 1vh;
+    border: none;
+    height: 5vh;
+    border-radius: 1vh;
+    font-size: 1.3vw;
+    width: 11vw;
+}
+.black-but{
+    background-color: black;
+    color: white;
+    margin-bottom: 0.5vh;
+}
+.black-but:hover{
+    background-color:rgb(71, 69, 69) ;
+}
+.red-but{
+    background-color: red;
+    color: white;
+    margin-bottom: 0.5vh;
+
+}
+.red-but:hover{
+    background-color:rgb(107, 6, 6) ;
+}
+.red-but2{
+    background-color: red;
+    color: white;
+    margin-bottom: 1.5vh;
+
+}
+.red-but2:hover{
+    background-color:rgb(107, 6, 6) ;
+}
+.red-but3{
+    background-color: rgb(255, 255, 255);
+    color: red;
+    margin-bottom: 0.5vh;
+
+}
+.red-but3:hover{
+    background-color:red ;
+    color: white;
+}
+.images{
+    background-color: black;
+    color: white;
+}
+.p{
+    font-size: 1.3vw; 
+    white-space: pre-line;
+}
+.loader{
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.507);
+
+}
+#loader{
+    display: none;
+}
+
+.button{
+    position: relative;
+    top: 40vh;
+    left: 45vw;
+
+    
+}
+
+.black-but4{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-bottom: 0.5vh;
+
+}
+.black-but4:hover{
+    background-color:rgb(202, 193, 193) ;
+    color: black;
+}
